@@ -1,0 +1,35 @@
+@use "theme" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Josefin+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+
+	--color-bg: #f6f3ee;
+	--color-bg-ac: #ffffff;
+	--color-fg: #000000;
+	--color-fg-ac: #181717;
+
+	// --green: #344e41;
+	// --green-ac: #79bf7c;
+	// --green-lt: #b7da6b;
+	// --green-lt-ac: #47894e;
+	// --brown: #944a1a;
+	// --brwon-ac: #ffd4ab;
+	// --orange: #f57f72;
+	// --orange-ac: #ce125c;
+	// --purple: #3d1144;
+	// --purple-ac: #bc4e82;
+	background-color: bg();
+}
+
+body {
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+}
