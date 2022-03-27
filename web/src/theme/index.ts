@@ -27,3 +27,10 @@ export const colors = {
 		...themeColors,
 	},
 };
+
+export const media = {
+	screen: {
+		tablet: 600,
+		desktop: 1300,
+	},
+};

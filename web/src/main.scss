@@ -22,14 +22,17 @@
 	// --orange-ac: #ce125c;
 	// --purple: #3d1144;
 	// --purple-ac: #bc4e82;
-	background-color: bg();
 }
 
 body {
 	width: 100vw;
 	padding: 0;
 	margin: 0;
+	display: flex;
 	position: relative;
 	top: 0;
 	left: 0;
+
+	background-color: bg();
+	font-family: $pt;
 }
