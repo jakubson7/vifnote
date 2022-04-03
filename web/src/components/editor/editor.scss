@@ -1,0 +1,24 @@
+@use "../../theme" as *;
+
+.__editor__.__ {
+	outline: none;
+
+	font-weight: 400;
+	font-style: normal;
+
+	.__ {
+		font-weight: inherit;
+		font-style: inherit;
+	}
+	.b {
+		font-weight: $bold;
+		font-style: inherit;
+	}
+	.c {
+		font-weight: inherit;
+		font-style: italic;
+	}
+	.t {
+		user-select: none;
+	}
+}
