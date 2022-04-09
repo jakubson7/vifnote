@@ -1,0 +1,12 @@
+{
+  "private": "true",
+  "name": "@vif/script",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/script.js",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fs-jetpack": "^4.3.1",
+    "prompt-sync": "^4.2.0"
+  }
+}

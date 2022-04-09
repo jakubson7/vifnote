@@ -1,0 +1,10 @@
+{
+  "private": "true",
+  "name": "@vif/theme",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx swc ./src/theme.ts -o ./dist.js",
+    "start": "nodemon --exec yarn build"
+  },
+  "main": "./dist.js"
+}

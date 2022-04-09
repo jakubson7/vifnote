@@ -24,3 +24,6 @@ dist-ssr
 .env
 .env.dev
 .env.prod
+
+dist.js
+./__dist

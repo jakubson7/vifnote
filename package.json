@@ -1,16 +1,23 @@
 {
-	"private": "true",
-	"workspaces": {
-		"nohoist": [],
-		"packages": [
-			"web"
-		]
-	},
-	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.16.0",
-		"@typescript-eslint/parser": "^5.16.0",
-		"eslint": "^8.12.0",
-		"eslint-config-prettier": "^8.5.0",
-		"prettier": "^2.6.1"
-	}
+  "private": "true",
+  "workspaces": {
+    "nohoist": [],
+    "packages": [
+      "./__js/*",
+      "./script"
+    ]
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.163",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1"
+  },
+  "scripts": {
+    "script": "node ./script/src/script.js"
+  }
 }

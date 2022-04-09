@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "loc": "./__js/theme/scss/_index.scss",
+    "dest": "./pwa/src/theme/_index.scss"
+  },
+  "modules": [
+    ["theme", "./__js/theme", "jslib"],
+    ["types", "./__js/types", "jslib"],
+    ["ui", "./__js/ui", "svelib"]
+  ]
+}
