@@ -19,14 +19,12 @@ export const renderModuleTable = async (modules) => {
         ? yellow(status)
         : green(status);
 
-    console.log([20 - name.length, 20 - status.length]);
-
     render(
       space(8),
       name,
-      space(20 - name.length),
+      space(12 - name.length),
       statusElement,
-      space(20 - status.length),
+      space(12 - status.length),
       type
     );
   });
